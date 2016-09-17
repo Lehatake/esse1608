@@ -2,9 +2,9 @@ document.getElementById("novoContato").addEventListener("click", criarContato);
 document.getElementById("listaContatos").addEventListener("click", listarContatos);
 
 function criarContato() {
-	var nome = document.getElementById("name");
-	var numero = document.getElementById("numero");
-   var novoContato = navigator.contacts.create({"displayName": nome});
+	var name = document.getElementById("name").value;
+	var numero = document.getElementById("numero").value;
+   var novoContato = navigator.contacts.create({"displayName": name});
    var telefones = [];
    telefones[1] = new ContactField('mobile', numero, true);
    novoContato.phoneNumbers = telefones;
