@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.fib.lp5.contatinhos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Contatos</name>
+    <description>
+        App para contatos
+    </description>
+    <author email="crowley_demonic@hotmail.com.br" href="http://fib.br">
+        Ninja Nines
+    </author>
+    <content src="index.html" />
+	<preference name="DisallowOverscroll" value="true" />
+	
+	
+	<icon src="resources/icon.png" />
+	<splash src="resources/splash.png" />
+
+	
+	
+	<platform name="android">
+		<preference name="Fullscreen" value="true" />
+	</platform>
+
+
+</widget>
